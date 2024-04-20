@@ -1,0 +1,13 @@
+# Dp_botz
+# owner of this repo @dp_botz
+# any doubt contect admin @dpowner_bot
+
+
+pyrogram
+TgCrypto
+pymongo[srv]
+aiohttp
+flask
+pytz
+
+# Dp_botz
