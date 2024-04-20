@@ -18,7 +18,7 @@ class Config:
     PORT = os.environ.get("PORT", "8080")
     
     DP_PIC = os.environ.get("DP_PIC", "https://graph.org/file/67a5c787deb0d67fd3f69.jpg")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME","TTeamXo_Auto_Approve_Bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME","TeamXo_Auto_Approve_Bot")
  # Subsprice Gif & Auto Request Accept
     SURPRICE = os.environ.get("SURPRICE", "https://graph.org/file/67a5c787deb0d67fd3f69.jpg").split()
 
