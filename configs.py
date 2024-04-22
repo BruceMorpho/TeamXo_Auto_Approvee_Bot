@@ -7,7 +7,7 @@ class Config:
     API_HASH = getenv("API_HASH", "377181507ef31b3ceef9fd6733756feb")
     BOT_TOKEN = getenv("BOT_TOKEN", "7004962339:AAFauWpInLvn1JUjEbTjSnacSQXlnCfRvd8")
     UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "XozMovies")
-    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1001886672413"))
+    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-2139227512"))
     ADMIN = list(map(int, getenv("ADMIN", "1058787811").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://XoBruce:BsjBIPIQIRVBKNON@xobruce.ubqor0m.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-2132087730"))
