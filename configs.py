@@ -3,8 +3,8 @@ import os, time
 #from pyrogram.types import BotCommand
 
 class Config:
-    API_ID = int(getenv("API_ID", "20652787"))
-    API_HASH = getenv("API_HASH", "5dea928561e4d2eb77a371edf8b2eb2a")
+    API_ID = int(getenv("API_ID", "20239261"))
+    API_HASH = getenv("API_HASH", "af61dab399ed3220a3a81570b56bd29d")
     BOT_TOKEN = getenv("BOT_TOKEN", "7004962339:AAFauWpInLvn1JUjEbTjSnacSQXlnCfRvd8")
     UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "XozMovies")
     UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-2139227512"))
@@ -22,6 +22,6 @@ class Config:
  # Subsprice Gif & Auto Request Accept
     SURPRICE = os.environ.get("SURPRICE", "https://graph.org/file/67a5c787deb0d67fd3f69.jpg").split()
 
-    LOGO = """DP_BOTZ"""
+    LOGO = """🇩 🇵_🇧 🇴 🇹 🇿"""
 
 dp1 = Config()
